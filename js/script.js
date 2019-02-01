@@ -3,7 +3,7 @@
 $(function() {
     $("#loginForm").submit(function(event){
         event.preventDefault();
-
+//test  
         let request = new XMLHttpRequest();
         request.onload = function () {
             if(this.readyState == 4 && this.status == 200) {
