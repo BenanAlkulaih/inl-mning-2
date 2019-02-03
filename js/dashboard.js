@@ -482,13 +482,13 @@ $(function () {
         var text = [];
         text.push('<div class="distribution-chart">');
         text.push('<div class="item"><div class="legend-label" style="border: 3px solid ' + chart.data.datasets[0].backgroundColor[0] + '"></div>');
-        text.push('<p>Texas</p>');
+        text.push('<p>stockholm</p>');
         text.push('</div>');
         text.push('<div class="item"><div class="legend-label" style="border: 3px solid ' + chart.data.datasets[0].backgroundColor[1] + '"></div>');
-        text.push('<p>Utah</p>');
+        text.push('<p>västerås</p>');
         text.push('</div>');
         text.push('<div class="item"><div class="legend-label" style="border: 3px solid ' + chart.data.datasets[0].backgroundColor[2] + '"></div>');
-        text.push('<p>Georgia</p>');
+        text.push('<p>örebo</p>');
         text.push('</div>');
         text.push('</div>');
         return text.join("");
